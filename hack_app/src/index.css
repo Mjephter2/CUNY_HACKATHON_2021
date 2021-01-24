@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  /* width: 500px; */
+  display: grid;
+  border-style: solid;
+  border-radius: 70px;
+  justify-content: center;
+}
+
+.add-item {
+  display: inline;
+  margin-bottom: 50px;
+}
+
+.list {
+  height: 300px;
+  overflow: scroll;
+}
+
+.red-symptom {
+  background-color: red;
+  border-style: solid;
+  color: white;
+}
+
+.yellow-symptom {
+  border-style: dashed;
+  background-color: orange;
+}
+
+.symptom {
+  height: 45px;
+  border-radius: 30px;
+}
+
+.symptom:hover {
+  height: 70px;
+  background-color: lightgray;
+  color: black;
+}
+
+.emergency {
+  height: 500px;
+  display: grid;
+  /* border-style: dotted solid double dashed; */
+  border-radius: 70px;
+  justify-content: center;
+  align-content: center;
+  /* background-color: red; */
+}
+
+.call {
+  font-size: 100px;
+}
+
+.emergency-green {
+  background-color: green;
+  border-radius: 50%;
+  /* background-color: #fff; */
+  box-shadow: 0 0 60px 30px green, /* inner white */ 0 0 100px 60px green,
+    /* middle magenta */ 0 0 140px 90px green; /* outer cyan */
+  text: "no text";
+}
+
+.emergency-red {
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: 0 0 60px 30px red, /* inner white */ 0 0 100px 60px red,
+    /* middle magenta */ 0 0 140px 90px red; /* outer cyan */
+}

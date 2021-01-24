@@ -1,0 +1,24 @@
+{
+    "yellow": [
+      "Fever or Chills",
+      "Cough",
+      "Shortness of breath or difficulty breathing",
+      "Fatigue",
+      "Muscle or Body Aches",
+      "Headache",
+      "New loss of taste or smell",
+      "Sore throat",
+      "Congestion or runny nose",
+      "Nausea or vomitting",
+      "Diarrhea"
+    ],
+
+    "red": [
+      "Trouble breathing",
+      "Persistent pain or pressure in the chest",
+      "New confusion",
+      "Inability to wake or stay awake",
+      "Bluish lips or face"
+    ]
+}
+
